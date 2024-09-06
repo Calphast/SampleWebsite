@@ -1,0 +1,9 @@
+Im leaving the javascript for later
+
+The MainPage file is really messy... there are some things to note:
+    The classes dont have the best names
+    The structure really needs a fixing; I didn't follow the figma structuring
+    the "style" on some could be easily condensed into individual classes and
+        each of them could be modified accordingly
+
+The Careers page will try to follow a more structure and balanced approach on HTML and CSS coding
