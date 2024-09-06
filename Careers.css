@@ -1,0 +1,35 @@
+/* Font Styles */
+.rubik-f1 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.inter-f1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.mainTitle {
+    font-size: 52px;
+    line-height: 68px;
+    letter-spacing: 2px;
+}
+
+.mainSubTitle {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/* Util */
+.center {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
