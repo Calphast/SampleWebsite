@@ -6,4 +6,6 @@ The MainPage file is really messy... there are some things to note:
     the "style" on some could be easily condensed into individual classes and
         each of them could be modified accordingly
 
-The Careers page will try to follow a more structure and balanced approach on HTML and CSS coding
+The carrer pages are done for now, since I want to move on to other things
+    The classes have much better names
+    the structure is much cleaner, but could use a little more work
