@@ -167,6 +167,17 @@ h3 {
     top: 0;
 }
 
+.mainPageImage {
+    background-image: url("images/03475fa81ae60ae6924f5cf9e22e9cca.png");
+}
+
+.circleImage {
+    background-image: url("images/25d45130d68ba1bfa438d5f99777c632.png");
+    border-radius: 1000px;
+    background-size: 400px 400px;
+    background-position: 80% 1%;
+}
+
 .backgroundImageGradient1Right {
     background-color: #F4F4F4;
     background-image: linear-gradient(to right, white, transparent), url("images/72a3ceb4033cb8345cedab75d663da51.png");
