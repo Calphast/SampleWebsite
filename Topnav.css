@@ -1,0 +1,26 @@
+.inter-f1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    top: 50%;
+    width: 100%;
+}
+
+.navbarTextBox1 {
+    position: relative;
+    top: 25%;
+}
+
+.navbarTextBox2 {
+    position: relative;
+    bottom: 25%;
+}
