@@ -12,6 +12,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;1,14..32,300&display=swap" rel="stylesheet">
 </head>
 <body class="rubik-f1">
+    <div id="header-container"></div>
+    <template id="navbar-template">
+        <header>
+            <div style="height: 36px; background-color: #0F416A; margin: 0; padding: 0; top: 50%; width: 100%;">
+                <p style="padding-left: 10%; position: relative; top: 25%;margin: 0;">The Micro G-JET officially licensed in Canada.</p>
+                <p style="padding-left: 80%; position: relative; bottom: 25%;margin: 0;">View now</p>
+            </div>
+        </header>
+    </template>
+    <script>
+    // Get the template and clone its content
+    const headerTemplate = document.getElementById('navbar-template');
+    const headerClone = headerTemplate.content.cloneNode(true);
+
+    // Append the cloned template to the header container
+    document.getElementById('header-container').appendChild(headerClone);
+</script>
     <div class="topnav"></div>
     <div style="width: 576px; height: 173px; padding-top: 8%; padding-left: 5%">
         <div style="width: 338px; height: 16px; padding-top: 0">
